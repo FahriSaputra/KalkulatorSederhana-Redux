@@ -1,0 +1,19 @@
+import store from './Store';
+
+// kalkulator Action.type
+const HITUNG_HASIL_KALKULATOR = 'HITUNG_HASIL_KALKULATOR';
+const SET_INPUT_KALKULATOR = 'SET_INPUT_KALKULATOR';
+const RESET_KALKULATOR = 'RESET_KALKULATOR';
+
+//kalkulatorConnect Action.type
+const HITUNG_HASIL = 'HITUNG_HASIL';
+const SET_INPUT = 'SET_HASIL';
+
+export {
+  store, 
+  HITUNG_HASIL_KALKULATOR, 
+  SET_INPUT_KALKULATOR,
+  RESET_KALKULATOR,
+  HITUNG_HASIL,
+  SET_INPUT
+};
